@@ -1,4 +1,4 @@
-# 🤖 *PRO 2025* | **Project Nammama**
+# 🤖 *PRO 2025* | **Project Namnama**
 
 ### *Bringing hope for the future.* Hello! We are the PCLU SiribTech Future Engineers Team B.
 
