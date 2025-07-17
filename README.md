@@ -1,6 +1,6 @@
 # 🤖 *PRO 2025* | **Project Namnama**
 
-### *Engineering the future, driven by hope* — we are Team B of PCLU SiribTech Future Engineers.
+### *Engineering the future, driven by hope* — we are the PCLU SiribTech Future Engineers Team B.
 
 # Lists of Contents
 - [1. Introduction](#1-introduction)
@@ -75,15 +75,15 @@ flowchart TD
     D -- Blue Line --> F("Counter-clockwise turn")
     E --> G("Lap counting")
     F --> G
+    G --> L("Stop to starting positon")
+    L --> M("End program")
     G --> H("Remain distance
     from the wall")
     H --> I{"Detect obstacles"}
     I -- Green --> J("Go to left")
     I -- Red --> K("Go to right")
-    J --> G
+    J --> G 
     K --> G
-    G --> L("Stop to starting positon")
-    L --> M("End program")
 ```
 
 ## 2.3 Why LEGO MINDSTORMS EV3?
@@ -171,6 +171,14 @@ Our team tested the system under different lighting and obstacle setups to impro
 # 6. Team and Vehicle Pictures
 > [!NOTE]
 > All images of the vehicle's components and structures are compiled in the [v-photos](/v-photos/) directory, whereas team-related photographs are organized in the [t-photos](/v-photos/) directory, providing clear distinction between the two directory.
+<div align="center">
+    <h3 align="center"><i>team photo with coach</i></h3>
+    <img width=80% src="t-photos/TEAMB_WCOACH.jpg"></img>
+    <h3 align="center"><i>team funny photo</i></h3>
+    <img width=80% src="t-photos/TEAMB_FUNNY.jpg"></img>
+    <h3 align="center"><i>first prototype of the vehicle</i></h3>
+    <img width=80% src="v-photos/draft prototype collage.jpg"></img>
+</div>
 
 # 7. Performance Videos
 [![YouTube | Open Challenge](https://img.shields.io/badge/Open%20Challenge-YouTube?logo=youtube&label=Youtube&labelColor=red&color=gray)]()
