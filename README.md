@@ -29,3 +29,32 @@ Team Coach: **Bong John Abraham Agno** & **Michael James Estipular Ergino**
 
 ## 1.3 Reasons to Participate
 For us, this project is more than just fighting for an honorable spot in the world of Robotics. It is more than just a competition. Here, we've indulged ourselves in discovering our fullest potentials by taking little steps and moving onto greater heights with full confidence and by enjoying the flow of the process. We've created a robot knowing it'll soon serve its purpose in the future.<br><br>Being a part of this Olympiad made us realize how great it is to seek answers or solutions for worldwide problems. The process also helped us realize how we should manage our talents/skills in the scope of Robotics. It is truly fascinating how a person can discover—such things about themselves while trying to discover for other people too.
+
+# 2. Abstract / About the Car
+
+## 2.2 Flow Diagram
+> [!NOTE]
+> For a comprehensive overview of the system’s configuration, including open and obstacle diagrams, wiring diagrams, and schematic representations, please refer to the contents of the [schemes](/schemes/) directory.
+
+
+```mermaid
+flowchart TD
+    A("Start: Initialization of
+    motors and sensors") --> B("Run constant loop")
+    B --> C("Drive straight")
+    C --> D{"Check what direction
+    to turn"}
+    D -- Orange Line --> E["Clockwise turn"]
+    D -- Blue Line --> F("Counter-clockwise turn")
+    E --> G("Lap counting")
+    F --> G
+    G --> H("Remain distance
+    from the wall")
+    H --> I{"Detect obstacles"}
+    I -- Green --> J("Go to left")
+    I -- Red --> K("Go to right")
+    J --> G
+    K --> G
+    G --> L("Stop to starting positon")
+    L --> M("End program")
+```
