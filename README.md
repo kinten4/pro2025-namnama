@@ -181,5 +181,4 @@ Our team tested the system under different lighting and obstacle setups to impro
 </div>
 
 # 7. Performance Videos
-[![YouTube | Open Challenge](https://img.shields.io/badge/Open%20Challenge-YouTube?logo=youtube&label=Youtube&labelColor=red&color=gray)]()
-[![YouTube | Obstacle Challenge](https://img.shields.io/badge/Obstable%20Challenge-YouTube?logo=youtube&label=Youtube&labelColor=red&color=gray)]()
+[![YouTube | Open Challenge](https://img.shields.io/badge/Open%20Challenge-YouTube?logo=youtube&label=Youtube&labelColor=red&color=gray)](https://www.youtube.com/watch?v=dkkeed0zYQs)
