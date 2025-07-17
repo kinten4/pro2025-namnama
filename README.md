@@ -131,9 +131,15 @@ else if color sensor detects blue line:
 
 'turn left direction' loop detection:
     wait until left ultrasonic sensor reaches less than 21 inches
+    turn to left
+    wait until left ultrasonic sensor reaches more than 21 inches
+    turn to right
 
 'turn right direction' loop detection:
     wait until right ultrasonic sensor reaches less than 21 inches
+    turn to right
+    wait until right ultrasonic sensor reaches more than 21 inches
+    turn to left
 
 
 while 'lap detection' loop is running:
