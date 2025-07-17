@@ -117,3 +117,28 @@ With a capacity of 2050 mAh, it supports long operating hours, allowing for unin
 ## 5.1 Open Challenge
 In our approach to the management of the open challenge, we utilized the LEGO EV3 system with ultrasonic sensors enabling autonomous navigation through the structured environment. Our main objective was to guide the robot so that it remained positioned between the two walls while also reacting appropriately to its surroundings. The ultrasonic sensor used to measure distances between the robot and the walls. These measurements allowed the robot to determine the right position. The distance readings from left to right sensors allows the robot to adjust its steering to stay aligned as it moves.<br><br>
 When the robot does not detect any object nearby, it proceeds forward by default. In such situations when the sensor identifies uneven distance between the sides it indicates a turn. The robot then initiated a preset turning action in the correct direction to stay aligned with the route. To keep the robot on track we keep the directional changes recorded and we monitor the robots movement throughout the session trials.
+
+```pseudo-code
+robot moves forward
+
+if color sensor detects orange line:
+    stop 'turn left direction' loop detection
+    start 'turn right direction' loop detection
+else if color sensor detects blue line:
+    stop 'turn right direction' loop detection
+    start 'turn left direction' loop detection
+
+
+'turn left direction' loop detection:
+    wait until left ultrasonic sensor reaches less than 21 inches
+
+'turn right direction' loop detection:
+    wait until right ultrasonic sensor reaches less than 21 inches
+
+
+while 'lap detection' loop is running:
+    if color sensor detects blue line:
+        lap counter adds 1
+    wait until lap counter is equal to 12:
+        stop program and robot
+```
