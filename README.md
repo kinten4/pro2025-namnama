@@ -100,3 +100,15 @@ flowchart TD
 ## 3.3 Rack and Pinion Steering Mechanism
 The selected steering mechanism for our design is the <a href="https://wikipedia.org/wiki/Rack_and_pinion" target="_blank"><b>Rack and Pinion Steering Mechanism</b></a>. The rotational motion produced by the EV3 Medium Motor is transferred to the pinion gear and then to the linear rack, causing it to be transformed into linear motion. This causes the steering system to change the angle, from center to turning left or right, depending on the direction in which the motor rotates. This makes the steering more accurate for small-scale autonomous vehicles.
 <div align="center"><img width=80% src="other/rack pinion.png"></img></div> 
+
+# 4. Power and Sense Management ⚡
+## 4.1 Power Source
+The battery used in our project is the **EV3 Rechargeable DC Battery**, which is specifically designed for *LEGO MINDSTORMS EV3* systems. This battery offers a reliable and consistent power source, making it ideal for extended use and repeated testing. It eliminates the need for disposable AA batteries, providing longer run time, reducing waste and overall cost over time. It can be connected directly to the EV3 Intelligent Brick. The battery comes with its own compatible charger, the **EV3 Rechargeable DC charger**, ensuring safe and efficient recharging between sessions.
+
+With a capacity of 2050 mAh, it supports long operating hours, allowing for uninterrupted experimentation and programming. Using the EV3 Rechargeable DC Battery also ensures compatibility with official LEGO hardware standards, maintaining the integrity and performance of our setup.
+
+## 4.2 Sensors
+- ### 4.2.1 EV3 Color Sensor
+    Robots rely on sensors to make sense of their world, much like we do with our eyes. <b>Color sensors</b> allow the robot to recognize and identify objects. Specifically in this challenge, the color sensor is used for navigation by following the colored lines, providing an effective way for the robots to move along suggested paths.
+- ### 4.2.2 EV3 Ultrasonic Sensor
+    <b>Ultrasonic sensors</b> are vital for robots in order to perceive their environment in terms of distance and detect obstacles. In this challenge, these sensors act out a fundamental role as it has the ability to emit high-frequency sound waves and measures the time it takes before returning. This sensor provides the simplest understanding of its physical surroundings.
