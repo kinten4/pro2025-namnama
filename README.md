@@ -92,6 +92,11 @@ flowchart TD
 | 2 | EV3 Medium Motor | The motors used for driving and steering mechanisms. |
 | 5 | EV3 Cables | The cables to connect the 2 EV3 motors and 3 EV3 sensors to the *EV3 Intelligent Brick*. |
 
+## 3.2 Wiring Diagram
+> [!NOTE]
+> For a comprehensive overview of the system’s configuration, including open and obstacle diagrams, wiring diagrams, and schematic representations, please refer to the contents of the [schemes](/schemes/) directory.
+<div align="center"><img width=80% src="schemes/wiring dia.png"></img></div>
+
 ## 3.3 Rack and Pinion Steering Mechanism
 The selected steering mechanism for our design is the <a href="https://wikipedia.org/wiki/Rack_and_pinion" target="_blank"><b>Rack and Pinion Steering Mechanism</b></a>. The rotational motion produced by the EV3 Medium Motor is transferred to the pinion gear and then to the linear rack, causing it to be transformed into linear motion. This causes the steering system to change the angle, from center to turning left or right, depending on the direction in which the motor rotates. This makes the steering more accurate for small-scale autonomous vehicles.
 <div align="center"><img width=80% src="other/rack pinion.png"></img></div> 
