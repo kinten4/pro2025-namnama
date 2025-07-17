@@ -11,6 +11,19 @@
     - [2.1 Logic / Idea of the Car](#21-logic--idea-of-the-car)
     - [2.2 Flow Diagram](#22-flow-diagram)
     - [2.3 Why LEGO MINDSTORMS EV3?](#23-why-lego-mindstorms-ev3)
+- [3. Mobility Management 🔧](#3-mobility-management-🔧)
+    - [3.1 Bill of Materials (BOM)](#31-bill-of-materials-bom)
+    - [3.2 Wiring Diagram](#32-wiring-diagram)
+    - [3.3 Rack and Pinion Steering Mechanism](#33-rack-and-pinion-steering-mechanism)
+- [4. Power and Sense Management ⚡](#4-power-and-sense-management-⚡)
+    - [4.1 Power Source](#41-power-source)
+    - [4.2 Sensors](#42-sensors)
+        - [4.2.1 EV3 Color Sensor](#421-ev3-color-sensor)
+        - [4.2.2 EV3 Ultrasonic Sensor](#422-ev3-ultrasonic-sensor)
+- [5. Open and Obstacle Management 🚦](#5-open-and-obstacle-management-🚦)
+    - [5.1 Open Challenge](#51-open-challenge)
+    - [5.2 Obstable Challenge](#52-obstacle-challenge)
+- [7. Performance Videos ▶](#7-performance-videos-▶)
 
 # 1. Introduction   
 ## 1.1 About Us
@@ -153,3 +166,7 @@ while 'lap detection' loop is running:
 For the Obstacle Challenge, our team configured the LEGO EV3 robot using a color sensor to successfully detect and avoid obstacles on the field. The EV3 controlled the robot's motors, while the color sensor was used primarily for detecting the line or specific colored areas to help with navigation and positioning. <br><br>
 When an obstacle appeared in the robot’s path, the software determined its location in the frame (left, center, or right), and based on that, we generated a decision to avoid it. This decision was sent to the EV3, which then executed a turning maneuver to avoid the obstacle. After passing the obstacle, the robot realigned with the main path, using the color sensor for feedback when needed. <br><br>
 Our team tested the system under different lighting and obstacle setups to improve its accuracy and reliability. We also adjusted the detection parameters and motor responses to ensure the robot could respond quickly and smoothly. This configuration allowed our robot to handle the Obstacle Challenge autonomously and efficiently.
+
+# 7. Performance Videos ▶
+[![YouTube | Open Challenge](https://img.shields.io/badge/Open%20Challenge-YouTube?logo=youtube&label=Youtube&labelColor=red&color=gray)]()
+[![YouTube | Obstacle Challenge](https://img.shields.io/badge/Obstable%20Challenge-YouTube?logo=youtube&label=Youtube&labelColor=red&color=gray)]()
