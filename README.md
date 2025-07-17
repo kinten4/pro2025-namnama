@@ -7,6 +7,10 @@
     - [1.1 About Us](#11-about-us)
     - [1.2 Team Management](#12-team-management)
     - [1.3 Reasons to Participate](#13-reasons-to-participate)
+- [2. Abstract / About the Car](#2-abstract--about-the-car)
+    - [2.1 Logic / Idea of the Car](#21-logic--idea-of-the-car)
+    - [2.2 Flow Diagram](#22-flow-diagram)
+    - [2.3 Why LEGO MINDSTORMS EV3?](#23-why-lego-mindstorms-ev3)
 
 # 1. Introduction   
 ## 1.1 About Us
