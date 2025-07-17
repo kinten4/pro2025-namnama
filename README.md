@@ -54,8 +54,8 @@ This approach is applicable for managing both challenges and can be effectively 
  
 1. The process begins when the "start" or "on" button is pressed to enable the function of the robot loading its pre-programmed instructions. In accordance with the program, it tells which way the robot goes; clockwise or counter-clockwise. This directional command guides the robot's navigation system, allowing it to orient itself correctly within its environment.
 2. Once engaged, its driving motors then function as it moves forward creating a guiding path or the robot to go either in a clockwise or a counter-clockwise manner. 
-3. During the obstacle challenge, different types of obstacles are expected. Literally, these are the obstacles that must be avoided during the whole laps or the lines with colors indicating one route at some point on the mat. That is why there are sensors and a camera attached onto the robot.
-4. Some sensors and a camera are both placed on the robot to serve their specific purposes. The color sensor helps with lap detection. The ultrasonic sensors help with wall detection and avoidance. Lastly, the camera helps with obstacle detection and avoidance.
+3. During the obstacle challenge, different types of obstacles are expected. Literally, these are the obstacles that must be avoided during the whole laps or the lines with colors indicating one route at some point on the mat. That is why there are sensors attached onto the robot.
+4. Sensors are placed on the robot to serve their specific purposes. The color sensor helps with lap detection while the ultrasonic sensors help with wall detection and avoidance. 
 5. After the designated program has officially finished, the robot will stop. 
 On the open challenge, this only happens when the robot has already done its full three (3) laps. On the other hand, this only happens on the obstacle challenge when the robot has also done its full three (3) laps while also successfully avoiding the obstacles (traffic signs). 
 
