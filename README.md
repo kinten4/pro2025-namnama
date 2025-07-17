@@ -11,19 +11,20 @@
     - [2.1 Logic / Idea of the Car](#21-logic--idea-of-the-car)
     - [2.2 Flow Diagram](#22-flow-diagram)
     - [2.3 Why LEGO MINDSTORMS EV3?](#23-why-lego-mindstorms-ev3)
-- [3. Mobility Management 🔧](#3-mobility-management-🔧)
+- [3. Mobility Management](#3-mobility-management)
     - [3.1 Bill of Materials (BOM)](#31-bill-of-materials-bom)
     - [3.2 Wiring Diagram](#32-wiring-diagram)
     - [3.3 Rack and Pinion Steering Mechanism](#33-rack-and-pinion-steering-mechanism)
-- [4. Power and Sense Management ⚡](#4-power-and-sense-management-⚡)
+- [4. Power and Sense Management](#4-power-and-sense-management)
     - [4.1 Power Source](#41-power-source)
     - [4.2 Sensors](#42-sensors)
         - [4.2.1 EV3 Color Sensor](#421-ev3-color-sensor)
         - [4.2.2 EV3 Ultrasonic Sensor](#422-ev3-ultrasonic-sensor)
-- [5. Open and Obstacle Management 🚦](#5-open-and-obstacle-management-🚦)
+- [5. Open and Obstacle Management](#5-open-and-obstacle-management)
     - [5.1 Open Challenge](#51-open-challenge)
     - [5.2 Obstable Challenge](#52-obstacle-challenge)
-- [7. Performance Videos ▶](#7-performance-videos-▶)
+- [6. Team and Vehicle Pictures](#6-team-and-vehicle-pictures)
+- [7. Performance Videos](#7-performance-videos)
 
 # 1. Introduction   
 ## 1.1 About Us
@@ -93,7 +94,7 @@ flowchart TD
 - **Direct Hardware Control**: With its array of motors and sensors (color, ultrasonic, camera), the EV3 provides direct and precise control over physical actions and allows robots to perceive their environment. This enables the creation of responsive and autonomous machines.<br>
 - **Versatility and Educational Impact**: The EV3 can be used to build a vast range of robots and mechanisms, from simple vehicles to complex robotic arms. It's commonly used in educational settings worldwide to teach STEM concepts, fostering creativity, critical thinking, problem-solving, and collaboration through engaging, hands-on robotics project.
 
-# 3. Mobility Management 🔧
+# 3. Mobility Management
 ## 3.1 Bill of Materials (BOM)
 
 | Quantity | Material | Description |
@@ -114,7 +115,7 @@ flowchart TD
 The selected steering mechanism for our design is the <a href="https://wikipedia.org/wiki/Rack_and_pinion" target="_blank"><b>Rack and Pinion Steering Mechanism</b></a>. The rotational motion produced by the EV3 Medium Motor is transferred to the pinion gear and then to the linear rack, causing it to be transformed into linear motion. This causes the steering system to change the angle, from center to turning left or right, depending on the direction in which the motor rotates. This makes the steering more accurate for small-scale autonomous vehicles.
 <div align="center"><img width=80% src="other/rack pinion.png"></img></div> 
 
-# 4. Power and Sense Management ⚡
+# 4. Power and Sense Management
 ## 4.1 Power Source
 The battery used in our project is the **EV3 Rechargeable DC Battery**, which is specifically designed for *LEGO MINDSTORMS EV3* systems. This battery offers a reliable and consistent power source, making it ideal for extended use and repeated testing. It eliminates the need for disposable AA batteries, providing longer run time, reducing waste and overall cost over time. It can be connected directly to the EV3 Intelligent Brick. The battery comes with its own compatible charger, the **EV3 Rechargeable DC charger**, ensuring safe and efficient recharging between sessions.
 
@@ -126,7 +127,7 @@ With a capacity of 2050 mAh, it supports long operating hours, allowing for unin
 - ### 4.2.2 EV3 Ultrasonic Sensor
     <b>Ultrasonic sensors</b> are vital for robots in order to perceive their environment in terms of distance and detect obstacles. In this challenge, these sensors act out a fundamental role as it has the ability to emit high-frequency sound waves and measures the time it takes before returning. This sensor provides the simplest understanding of its physical surroundings.
 
-# 5. Open and Obstacle Management 🚦
+# 5. Open and Obstacle Management
 ## 5.1 Open Challenge
 In our approach to the management of the open challenge, we utilized the LEGO EV3 system with ultrasonic sensors enabling autonomous navigation through the structured environment. Our main objective was to guide the robot so that it remained positioned between the two walls while also reacting appropriately to its surroundings. The ultrasonic sensor used to measure distances between the robot and the walls. These measurements allowed the robot to determine the right position. The distance readings from left to right sensors allows the robot to adjust its steering to stay aligned as it moves.<br><br>
 When the robot does not detect any object nearby, it proceeds forward by default. In such situations when the sensor identifies uneven distance between the sides it indicates a turn. The robot then initiated a preset turning action in the correct direction to stay aligned with the route. To keep the robot on track we keep the directional changes recorded and we monitor the robots movement throughout the session trials.
@@ -167,6 +168,10 @@ For the Obstacle Challenge, our team configured the LEGO EV3 robot using a color
 When an obstacle appeared in the robot’s path, the software determined its location in the frame (left, center, or right), and based on that, we generated a decision to avoid it. This decision was sent to the EV3, which then executed a turning maneuver to avoid the obstacle. After passing the obstacle, the robot realigned with the main path, using the color sensor for feedback when needed. <br><br>
 Our team tested the system under different lighting and obstacle setups to improve its accuracy and reliability. We also adjusted the detection parameters and motor responses to ensure the robot could respond quickly and smoothly. This configuration allowed our robot to handle the Obstacle Challenge autonomously and efficiently.
 
-# 7. Performance Videos ▶
+# 6. Team and Vehicle Pictures
+> [!NOTE]
+> All images of the vehicle's components and structures are compiled in the [v-photos](/v-photos/) directory, whereas team-related photographs are organized in the [t-photos](/v-photos/) directory, providing clear distinction between the two directory.
+
+# 7. Performance Videos
 [![YouTube | Open Challenge](https://img.shields.io/badge/Open%20Challenge-YouTube?logo=youtube&label=Youtube&labelColor=red&color=gray)]()
 [![YouTube | Obstacle Challenge](https://img.shields.io/badge/Obstable%20Challenge-YouTube?logo=youtube&label=Youtube&labelColor=red&color=gray)]()
