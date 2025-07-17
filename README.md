@@ -79,3 +79,19 @@ flowchart TD
 - **Intuitive Programming Environment**: The EV3 features a user-friendly, icon-based graphical programming interface. This drag-and-drop system allows for efficient work and rapid development of advanced functionalities without needing to write complex code from scratch. It also supports more advanced programming options for experienced users.<br>
 - **Direct Hardware Control**: With its array of motors and sensors (color, ultrasonic, camera), the EV3 provides direct and precise control over physical actions and allows robots to perceive their environment. This enables the creation of responsive and autonomous machines.<br>
 - **Versatility and Educational Impact**: The EV3 can be used to build a vast range of robots and mechanisms, from simple vehicles to complex robotic arms. It's commonly used in educational settings worldwide to teach STEM concepts, fostering creativity, critical thinking, problem-solving, and collaboration through engaging, hands-on robotics project.
+
+# 3. Mobility Management 🔧
+## 3.1 Bill of Materials (BOM)
+
+| Quantity | Material | Description |
+| :---: | :---: | :--- |
+| 1 | EV3 Intelligent Brick | A programmable central control unit of the *LEGO MINDSTORMS EV3 Core Set.* It is used to control motors and read sensor inputs. |
+| 1 | EV3 Rechargeable DC Battery | The main power source to operate our robot. |
+| 1 | EV3 Color Sensor |  A sensor that detects color and light intensity, it senses orange (*as yellow*). |
+| 2 | EV3 Ultrasonic Sensor | The sensors that emits high-frequency sound waves to calculate the distance between the sensor and the object/wall. |
+| 2 | EV3 Medium Motor | The motors used for driving and steering mechanisms. |
+| 5 | EV3 Cables | The cables to connect the 2 EV3 motors and 3 EV3 sensors to the *EV3 Intelligent Brick*. |
+
+## 3.3 Rack and Pinion Steering Mechanism
+The selected steering mechanism for our design is the <a href="https://wikipedia.org/wiki/Rack_and_pinion" target="_blank"><b>Rack and Pinion Steering Mechanism</b></a>. The rotational motion produced by the EV3 Medium Motor is transferred to the pinion gear and then to the linear rack, causing it to be transformed into linear motion. This causes the steering system to change the angle, from center to turning left or right, depending on the direction in which the motor rotates. This makes the steering more accurate for small-scale autonomous vehicles.
+<div align="center"><img width=80% src="other/rack pinion.png"></img></div> 
