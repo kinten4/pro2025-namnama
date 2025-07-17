@@ -22,7 +22,7 @@
         - [4.2.2 EV3 Ultrasonic Sensor](#422-ev3-ultrasonic-sensor)
 - [5. Open and Obstacle Management](#5-open-and-obstacle-management)
     - [5.1 Open Challenge](#51-open-challenge)
-    - [5.2 Obstable Challenge](#52-obstacle-challenge)
+    - [5.2 Obstacle Challenge](#52-obstacle-challenge)
 - [6. Team and Vehicle Pictures](#6-team-and-vehicle-pictures)
 - [7. Performance Videos](#7-performance-videos)
 
