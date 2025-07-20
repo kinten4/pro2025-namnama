@@ -1,6 +1,6 @@
 # 🤖 *PRO 2025* | **Project Namnama**
 
-### *Engineering the future, driven by hope* — we are the PCLU SiribTech Future Engineers Team B.
+### *Engineering the future, driven by hope* — we are the PCLU SiribTech Future Engineers - Team B.
 
 # Lists of Contents
 - [1. Introduction](#1-introduction)
@@ -75,7 +75,7 @@ flowchart TD
     D -- Blue Line --> F("Counter-clockwise turn")
     E --> G("Lap counting")
     F --> G
-    G --> L("Stop to starting positon")
+    G --> L("Stop to starting position")
     L --> M("End program")
     G --> H("Remain distance
     from the wall")
